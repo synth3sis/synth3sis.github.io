@@ -1,5 +1,5 @@
 _site
-Gemfile.lock
-*.json
-.jekyll-cache
-.jekyll-metadata
+#Gemfile.lock
+#*.json
+#.jekyll-cache
+#.jekyll-metadata
