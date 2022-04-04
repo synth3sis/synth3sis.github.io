@@ -47,7 +47,8 @@
 
   <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
   {% assign img_placehodler
-    = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' %}
+    = '/assets/img/post-placeholder.png' |  
+  %}
 
   {% assign lozad_replacement = '<img src="'
     | append: img_placehodler
