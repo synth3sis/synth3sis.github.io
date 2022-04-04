@@ -1,3 +1,7 @@
+<!--
+  Refactor the HTML structure.
+-->
+
 {% assign _content = include.content %}
 
 <!--
@@ -41,9 +45,8 @@
 
   {% assign _content = _content | replace: '<img src="/', img_path_replacement %}
 
-  <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
-  {% assign img_placehodler
-    = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' %}
+  <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage>
+  -->
 
   {% assign lozad_replacement = '<img src="'
     | append: img_placehodler
