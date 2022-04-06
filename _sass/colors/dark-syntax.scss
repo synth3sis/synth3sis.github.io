@@ -4,11 +4,11 @@
 
 @mixin dark-syntax {
   /* -----  My styles ------ */
-  --highlight-bg-color: #252525;
+  --highlight-bg-color: #12161e;
   --highlighter-rouge-color: #74b2f3;
   --highlight-lineno-color: #6c6c6d;
   --highlight-lineno-border-color: #303435;
-  --inline-code-bg: #272822;
+  --inline-code-bg: #12161e;
 
   .highlight {
     .gp { color: #818c96; }
