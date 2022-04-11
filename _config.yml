@@ -7,13 +7,13 @@ baseurl: ''
 lang: en-US
 timezone: EU/Rome
 
-title: hacker's rsrch
+title: Synth3sis Papers
 tagline: Security researches and red-blue-purple tips out of my experience and study
 
 description: >-                        # used by seo meta and the atom feed
   Just a humble cybersec blog in which I share my findings,
   researches, and any other possibile idea concerning
-  red, blue, purple teaming and other interesting stuff
+  red, blue, purple teaming and hacking tricks
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://synth3sis.github.io'
@@ -22,7 +22,7 @@ github:
   username: synth3sis
 
 twitter:
-  username:
+  username: snth3s
 
 social:
   # Change to your full name.
@@ -31,7 +31,7 @@ social:
   email: synth3sis.git@protonmail.com
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/synth3sis
+    #- https://twitter.com/snth3s
     - https://github.com/synth3sis       # change to your github homepage
     # - https://www.facebook.com/username
     #- https://www.linkedin.com/in/synth3sis
